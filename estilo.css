@@ -1,7 +1,7 @@
 /* Configuração padrão da página */
         body, html {
             margin: 0;
-            font: 16px "Lato", sans-serif;
+            font: 15px "Lato", sans-serif;
             color: #444;
             height: 100%;
         }
