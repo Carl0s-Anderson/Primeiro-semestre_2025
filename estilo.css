@@ -58,20 +58,19 @@
             text-transform: uppercase;
         }
 
-        /* --- Media Queries para Responsividade --- */
-        @media (max-width: 768px) {
-            .conteudo {
-                padding: 30px 20px;
-            }
+@media (max-width: 1024px) { 
+    .conteudo {
+        padding: 30px 20px;
+    }
 
-            .conteudo-titulo span.titulo {
-                font-size: 20px;
-                padding: 12px;
-                letter-spacing: 4px;
-            }
+    .conteudo-titulo span.titulo {
+        font-size: 20px;
+        padding: 12px;
+        letter-spacing: 4px;
+    }
 
-            /* Desativa o efeito parallax em dispositivos móveis para melhorar a performance */
-            .caixa1, .caixa2, .caixa3, .caixa4, .caixa5 {
-                background-attachment: scroll;
-            }
-        }
+    /* Desativa o efeito parallax em dispositivos móveis para melhorar a performance */
+    .caixa1, .caixa2, .caixa3, .caixa4, .caixa5 {
+        background-attachment: scroll;
+    }
+}
